@@ -26,5 +26,11 @@ All generated MIDI were rendered to audio(.mp3) using MuseScore General SoundFon
 | 905 |<audio src="music_sample/Condition/905_theme.mp3" controls title="Title"></audio>|<audio src="music_sample/GT/GT_905.mp3" controls title="Title"></audio>|<audio src="music_sample/Ours/output_ours_905.mp3" controls title="Title"></audio>|<audio src="music_sample/Music%20Transformer/output_musictransformer_905.mp3" controls title="Title"></audio>|<audio src="music_sample/WGAN/output_WGAN_905.mp3" controls title="Title"></audio>|<audio src="music_sample/Theme%20Transformer/output_theme_905.mp3" controls title="Title"></audio>|
 | 907 | <audio src="music_sample/Condition/907_theme.mp3" controls title="Title"></audio>|<audio src="music_sample/GT/GT_907.mp3" controls title="Title"></audio>|<audio src="music_sample/Ours/output_ours_907.mp3" controls title="Title"></audio>|<audio src="music_sample/Music%20Transformer/output_musictransformer_907.mp3" controls title="Title"></audio>|<audio src="music_sample/WGAN/output_WGAN_907.mp3" controls title="Title"></audio>|<audio src="music_sample/Theme%20Transformer/output_theme_907.mp3" controls title="Title"></audio>|
 
+## Visualizing experimental results
+The note's pitch and velocity distribution of generated music from ours and other benchmark models.
+Notice: All distributions have been approximated to a normal distribution using the Seaborn library.
 
+1. The global distribution camparison.
 ![Alt text](fig/similarity.png)
+
+2. Case study
