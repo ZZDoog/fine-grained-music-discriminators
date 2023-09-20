@@ -1,4 +1,4 @@
-# Generating high-quanlity symbolic music using fine-grained discriminators
+# Generating high-quality symbolic music using fine-grained discriminators
 
 ## Abstract
 
@@ -34,3 +34,15 @@ Notice: All distributions have been approximated to a normal distribution using 
 ![Alt text](fig/similarity.png)
 
 2. Case study
+![Alt text](fig/case_877.png)
+![Alt text](fig/case_878.png)
+![Alt text](fig/case_888.png)
+![Alt text](fig/case_891.png)
+![Alt text](fig/case_892.png)
+![Alt text](fig/case_893.png)
+![Alt text](fig/case_895.png)
+![Alt text](fig/case_896.png)
+![Alt text](fig/case_900.png)
+![Alt text](fig/case_903.png)
+![Alt text](fig/case_905.png)
+![Alt text](fig/case_907.png)
