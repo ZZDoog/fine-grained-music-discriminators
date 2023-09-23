@@ -2,4 +2,4 @@
 
 The code will be uploaded after the paper is accepted.
 
-The demo and some generated sample are available in [page](https://zzdoog.github.io/fg-discriminators/)
+The demos and some generated samples are available at [page](https://zzdoog.github.io/fg-discriminators/)
