@@ -11,6 +11,9 @@ Rhythm is the pattern of sound, silence, and emphasis in a song. It’s what mak
 Melody, on the other hand, is a sequence of single notes that make up your main thematic material. It’s the part of a song that you often find yourself humming or whistling.
 Together, rhythm and melody give music its unique character and beauty. They’re like the heartbeat and voice of a song, each contributing to its depth and expression.
 
+## The main structure of the proposed method
+![Alt text](fig/method.png)
+
 ## The Generated Examples of ours and other benchmark models
 Notice: All the sample in the same row take the same condition music piece as input or the prefix sequence.
 All generated MIDI were rendered to audio(.mp3) using MuseScore General SoundFont.
