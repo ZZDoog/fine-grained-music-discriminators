@@ -1,5 +1,7 @@
-### The official implement of papaer "Generating High-quality Symbolic Music using Fine-grained Discriminators"
+### Fine-grained Discriminators for Symbolic Music Generation
 
-The code will be uploaded after the paper is accepted.
+[ICPR2024] Official implementation of paper "Generating High-Quality Symbolic Music Using Fine-Grained Discriminators"
+
+The code will be released soon.
 
 The demos and some generated samples are available at [page](https://zzdoog.github.io/fg-discriminators/)
