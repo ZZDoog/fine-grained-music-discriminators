@@ -4,4 +4,4 @@
 
 The code will be released soon.
 
-The demos and some generated samples are available at [page](https://zzdoog.github.io/fg-discriminators/)
+The demos and some generated samples are available at [page]([https://zzdoog.github.io/fg-discriminators/](https://zzdoog.github.io/fine-grained-music-discriminators/))
