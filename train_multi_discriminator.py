@@ -50,7 +50,7 @@ os.makedirs("./logs",exist_ok=True)
 #     else:
 #         break
 
-exp_name = '8_28_debug'
+exp_name = 'debug'
 writer = SummaryWriter('./tensorboard_log/tensor_log_{}'.format(exp_name))
 
 os.makedirs(os.path.join(
