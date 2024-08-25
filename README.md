@@ -88,5 +88,10 @@ We would like to thank the authors of previous related projects for generously s
 ## ✍ Citation
 If you find this work helpful and use our code in your research, please kindly cite our paper:
 ```
-Coming soon.
+@article{zhang2024generating,
+  title={Generating High-quality Symbolic Music Using Fine-grained Discriminators},
+  author={Zhang, Zhedong and Li, Liang and Zhang, Jiehua and Hu, Zhenghui and Wang, Hongkui and Yan, Chenggang and Yang, Jian and Qi, Yuankai},
+  journal={arXiv preprint arXiv:2408.01696},
+  year={2024}
+}
 ```
