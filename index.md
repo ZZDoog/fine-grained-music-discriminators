@@ -15,12 +15,6 @@ Existing symbolic music generation methods utilize discriminator to distinguish 
 
 ![Alt text](fig/method.jpg)
 
-## The Additional Experiments and significance Tests
-
-![Alt text](fig\table1.png)
-![Alt text](fig\table2.png)
-
-
 ## The Generated Examples of ours and other benchmark models
 
 Notice: All the sample in the same row take the same condition music piece as input or the prefix sequence.
