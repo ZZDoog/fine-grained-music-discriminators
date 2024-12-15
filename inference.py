@@ -37,10 +37,10 @@ from randomness import set_global_random_seed
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_path', type=str, default='ckpts/7_6_work_TT_Re2/train/model_loss_discriminator_best.pt',
+parser.add_argument('--model_path', type=str, default='ckpts/test/train/model_loss_best.pt',
                     help='model file')
 
-parser.add_argument('--model_name', type=str, default='output_828_work_TT_RE_dis_train_loss',
+parser.add_argument('--output_name', type=str, default='output_test',
                     help='model name')
 
 parser.add_argument('--theme_file_path', type=str, default='theme_files',
@@ -85,7 +85,7 @@ myvocab = Vocab()
 
 
 # devices
-device = torch.device('cuda:1' if args.cuda else 'cpu')
+device = torch.device('cuda' if args.cuda else 'cpu')
 device_cpu = torch.device('cpu')
 
 save_dir = os.path.join(args.output_path, args.model_name)

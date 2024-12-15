@@ -50,8 +50,8 @@ os.makedirs("./logs",exist_ok=True)
 #     else:
 #         break
 
-exp_name = 'debug'
-writer = SummaryWriter('./tensorboard_log/tensor_log_{}'.format(exp_name))
+exp_name = 'test'
+writer = SummaryWriter('./ckpts/{}/tensorboard_log/tensor_log'.format(exp_name))
 
 os.makedirs(os.path.join(
     "./ckpts/", exp_name), exist_ok=True)
@@ -93,7 +93,7 @@ mylogger = logger.logger(filepath=os.path.join(
     checkpoint_folder, "log/log_{}.txt".format(exp_name)),overrite=True)
 if os.path.exists("logs/log_{}.txt".format(exp_name)):
     os.remove("logs/log_{}.txt".format(exp_name))
-os.link(mylogger.filepath, "logs/log_{}.txt".format(exp_name))
+# os.link(mylogger.filepath, "logs/log_{}.txt".format(exp_name))
 mylogger.log("Exp_dir : {}".format(checkpoint_folder))
 mylogger.log("Exp_Name : {}".format(exp_name))
 

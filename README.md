@@ -45,7 +45,9 @@ The demos and some generated samples are available at [page](https://zzdoog.gith
 
 ### Inference using Theme files in test set
 
-`python --model_name your_model_name --save_path  your_relative_path_in_output/`
+`python --model_path PATH_TO_YOUR_TRAINED_CHECKPOINT --output_name YOUR_INFERENCE_NAME`
+
+The generated symbolic music file (*.mid) will save in ./output/YOUR_INFERENCE_NAME/
 
 ### Notice
 - Remember to chage the exp_name when you run another round training.
@@ -76,7 +78,7 @@ The demos and some generated samples are available at [page](https://zzdoog.gith
 │   rhythm_discriminator.py
 │                           Code for training the discriminators.
 └──train_multi_discriminator.py
-                            Code for training the discriminators.
+                            Code for training the generator with both fine-grained discriminators.
 ```
 
 
